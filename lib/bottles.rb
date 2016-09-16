@@ -23,7 +23,7 @@ class Bottle
         "#{number - 1} bottles of beer on the wall.\n"
     end
   end
-  def verses(a,b)
-    verse(a) + verse(b)
+  def verses(up,down)
+    up.downto(down).collect {|i| self.verse(i)}.join("\n")
   end
 end
