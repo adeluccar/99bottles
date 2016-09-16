@@ -5,7 +5,7 @@ class Bottle
       "#{action(number)}" +
       "#{quantity(successor(number))} #{container(number - 1)} of beer on the wall.\n"
   end
-  def action(number = :fixme)
+  def action(number)
     if number == 0
       "Go to the store and buy some more, "
     else
