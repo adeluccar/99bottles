@@ -23,4 +23,7 @@ class Bottle
         "#{number - 1} bottles of beer on the wall.\n"
     end
   end
+  def verses(a,b)
+    verse(a) + verse(b)
+  end
 end
