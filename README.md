@@ -2,6 +2,10 @@
 
 The main exercise for the [99 Bottles of OOP](http://www.sandimetz.com/99bottles) by Sandi Metz and Katrina Owen. This book is a must if you're into TDD, or OOP. The lessons are simple, but powerful. I'm looking forward to the last chapters (unwritten).
 
+## Updates
+
+2016-09-17 0032 a01545 In the interest of keeping the code consistent with the book's, I changed the tests to account for the scenario below (only two changes). I also added the pronoun method. It was insanely easy to change thanks to the previous refactoring. Another testament to the book techniques's power.
+
 ## Notes
 
 The book uses the following form of the song:
