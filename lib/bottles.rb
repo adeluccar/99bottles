@@ -9,7 +9,14 @@ class Bottle
     if number == 0
       "Go to the store and buy some more, "
     else
-      "Take one down and pass it around, "
+      "Take #{pronoun(number)} down and pass it around, "
+    end
+  end
+  def pronoun(number)
+    if number == 1
+      "it"
+    else
+      "one"
     end
   end
   def successor(number)
